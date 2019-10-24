@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Final</title>
+  <link rel="stylesheet" href="/assets/root.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div id="over">
+    <div class="banner">
+      <h1>Big Family Cleaning Service</h1>
+      <p id="clarification">click for message</p>
+    </div>
+    <div id="restofpage">
+      <p><a href="/auth/twitter"> login with twitter</a></p>
+      <p id = "magicTrick"> Is <u id ="card">THIS</u> your card?</p>
+      {>nav /}
+    </div>
+  </div>
+  <div id="anotha">
+    <span class="next">
+      <h1>PRINT ALL THE TWITTERZ</h1>
+<p>
+    {#search_metadata}
+        Found {count} tweets about {query}.
+    {/search_metadata}
+</p>
+<ul id = "tweets">
+    {#statuses}
+        <li id= "larger"><a href="https://twitter.com/{user.screen_name}/status/{id_str}"> {user.screen_name} tweeted {text} </a></li>
+        <input  type ="button" id="https://twitter.com/intent/retweet?tweet_id={id_str}" value="Retweet"/>
+    {/statuses}
+</ul>
+    </span>
+  </div>
+  <script src="/assets/scriptFile.js" type="text/javascript"></script>
+</body>
+</html>

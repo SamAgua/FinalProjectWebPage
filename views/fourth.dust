@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Final</title>
+  <link rel="stylesheet" href="/assets/root.css"/>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="over">
+    <div class="banner">
+      <h1>Big Family Cleaning Service</h1>
+      <p id="clarification"></p>
+    </div>
+    <div id="restofpage">
+      <p><a href="/auth/twitter"> login with twitter</a></p>
+      <p>{greeting}</p>
+      <p>{screen_name}</p>
+      <span><img src="{profile_image_url}"/></span>
+      {>nav /}
+    </div>
+  </div>
+  <div id="anotha">
+    <span class="next">
+      <div class="moveOver">
+        <img id= "change" src="/assets/whatCouldItBe.jpg" alt="nopic"/>
+        <p>What could this be? You should click that picture...</p>
+        <br>
+      </div>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+    </span>
+  </div>
+  <script>
+  document.getElementById("change").addEventListener("click", function(){
+    document.getElementById("change").src = "/assets/youLooked.jpg";
+  });
+  </script>
+</body>
+</html>

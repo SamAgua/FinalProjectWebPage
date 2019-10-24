@@ -1,0 +1,9 @@
+
+<nav>
+    <ul>
+        <li><a href="/">front page</a></li>
+        <li><a href="/second/CSC365">What's all the buzz?</a></li>
+        <li><a href="/page3">Your most recent tweet</a></li>
+        <li><a href="/fourth">What's This?</a></li>
+    </ul>
+</nav>

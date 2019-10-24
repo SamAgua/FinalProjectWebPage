@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Final</title>
+  <link rel="stylesheet" href="/assets/root.css"/>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="over">
+    <div class="banner">
+      <h1>Big Family Cleaning Service</h1>
+      <p id="clarification"></p>
+    </div>
+    <div id="restofpage">
+      <p><a href="/auth/twitter"> login with twitter</a></p>
+      <p>{screen_name}</p>
+      <span><img src="{profile_image_url}"/></span>
+      {>nav /}
+    </div>
+  </div>
+  <div id="anotha">
+    <span class="next">
+      <div class="moveOver">
+      <h1>This is the front page</h1>
+      <p>Please log in and then continue to view your tweets!</p>
+    </div>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+      <h1>this is baloney</h1>
+    </span>
+  </div>
+  <script src="/assets/scriptFile.js" type="text/javascript"></script>
+</body>
+</html>
