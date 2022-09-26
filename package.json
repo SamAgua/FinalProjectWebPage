@@ -18,7 +18,7 @@
     "passport-twitter": "^1.0.4"
   },
   "devDependencies": {
-    "nightwatch": "^0.9.16",
+    "nightwatch": "^2.3.9",
     "eslint": "^4.9.0",
     "jasmine": "^2.8.0",
     "nodemon": "^1.12.1",
