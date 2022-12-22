@@ -9,7 +9,7 @@
   "author": "Sam Agauyo <aguayo923@missouristate.edu>",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "dustjs-linkedin": "^2.7.5",
+    "dustjs-linkedin": "^3.0.0",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "hoffman": "^0.2.2",
